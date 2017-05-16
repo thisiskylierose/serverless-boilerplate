@@ -8,3 +8,6 @@ dist/*
 
 # Serverless directories
 .serverless
+
+# Miscellaneous
+*.log
