@@ -2,5 +2,9 @@
 node_modules
 jspm_packages
 
+# Build directories
+dist/*
+!dist/.gitkeep
+
 # Serverless directories
 .serverless

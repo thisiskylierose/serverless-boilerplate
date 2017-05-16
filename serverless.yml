@@ -46,17 +46,17 @@ provider:
 #    variable1: value1
 
 # you can add packaging information here
-#package:
-#  include:
-#    - include-me.js
-#    - include-me-dir/**
-#  exclude:
-#    - exclude-me.js
-#    - exclude-me-dir/**
+package:
+  individually: true
+  exclude:
+    - "**/*"
 
 functions:
-  handler:
-    handler: handler.handler
+  boilerplate:
+    handler: dist/handler.boilerplate
+    package:
+      include:
+        - dist/**
 
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
