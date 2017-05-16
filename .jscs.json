@@ -1,0 +1,8 @@
+{
+	"preset": "airbnb",
+	"excludeFiles": ["node_modules/**"],
+  "validateIndentation": 2,
+	"maximumLineLength": false,
+	"disallowUnusedVariables": true,
+	"disallowUnusedParams": true
+}

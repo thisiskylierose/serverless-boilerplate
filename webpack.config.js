@@ -2,7 +2,10 @@ var path = require('path');
 
 module.exports = {
   target: 'node',
-  entry: [path.join(__dirname, 'src/handler.js')],
+  entry: [
+    'babel-polyfill',
+    path.join(__dirname, 'src/handler.js'),
+  ],
   output: {
     filename: 'handler.js',
     library: 'handler',

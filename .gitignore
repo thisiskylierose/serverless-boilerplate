@@ -2,7 +2,7 @@
 node_modules
 jspm_packages
 
-# Build directories
+# build directories
 dist/*
 !dist/.gitkeep
 

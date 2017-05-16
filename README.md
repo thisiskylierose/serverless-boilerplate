@@ -44,14 +44,14 @@ There is a convenience function to build and invoke a local build.
 
 - ```npm start```
 
-There is no watch task to run this in development. You must run each task separately.
+There is no watch task (yet) for this project. You must run each task separately.
 
 
 ## Authors
 
 Acknowledgment is cool. If you like this repo, feel free to credit.
 
-- Kylie Rose: thisiskylierose@gmail.com
+- Kylie Rose: https://github.com/thisiskylierose
 
 
 ## References
