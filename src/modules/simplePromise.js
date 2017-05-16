@@ -1,7 +1,9 @@
-const simplePromise = () => {
-  return new Promise((resolve, reject) => {
-    resolve('Hello, world.');
-  });
-};
+const simplePromise = (success) => new Promise((resolve, reject) => {
+  if (!success) {
+    return reject('Something bad happened.');
+  }
+
+  return resolve('Hello, world.');
+});
 
 export default simplePromise;
