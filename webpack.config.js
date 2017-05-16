@@ -3,7 +3,7 @@ var path = require('path');
 module.exports = {
   target: 'node',
   entry: [
-    'babel-polyfill',
+    'babel-regenerator-runtime',
     path.join(__dirname, 'src/handler.js'),
   ],
   output: {
